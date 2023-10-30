@@ -3,7 +3,7 @@ const app = express(); //iniciando o express
 
 //criando a rota inicial
 app.get("/", function(req,res){
-    res.send("<h1>SEGUNDO TRABALHO NUVEM!</h1>");
+    res.send("<h1>alteração trabalho!</h1>");
 })
 
 //rota da equipe
